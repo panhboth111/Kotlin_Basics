@@ -1,0 +1,12 @@
+In July 2011, project Kotlin was unveiled by jetBrains, a new programming language for JVM, which had been under
+development for a year.
+=> In February 2012, jetBrains open sourced the project under the Apache 2 license
+=> The name "Kotlin" comes from an island near St.Petersburg just like how Java was named after an Island
+=> Kotlin v1.0 was released on February 2016.
+    + This is considered to be the first officially stable release
+=> Kotlin v1.2 was released on 28 November 2017
+    + Sharing code between JVM and Javascript platforms feature was newly added to this release.
+=> Kotlin v1.3 was released on 29 October 2018
+    + bringing coroutines for asynchronous programming.
+=> On 7 May 2019, Google announced that the Kotlin programming language is now its preferred language for
+Android app developers.

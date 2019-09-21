@@ -1,0 +1,31 @@
+In Kotlin, when replaces the switch operator of other languages like Java. A certain block of code needs to be
+executed when some condition is fulfilled. The argument of when expression compares with all the branches one by
+one until some match is found. After the first match found, it reaches to end of the when block and execute the
+code next to when block. Unlike switch case in java or any other programming language, we do not require break
+statement at the end of each case.
+=> In Kotlin, when can be used in two ways:
+    - when as a statement
+    - when as an expression
+
+=> when can be used as a statement with or without else branch. If it is used as a statement, the values of all
+individual branches are compared sequentially with the argument and execute the corresponding branch where
+condition matches. If none of the branches satisfied with the condition then it will execute the else branch.
+
+=> We can use when as a statement without else branch. If it is used as a statement, the values of all individual
+branches are compared sequentially with the argument and execute the corresponding branch where condition matches.
+If none of the branches satisfied with the condition then it simply exits the block without printing anything to
+system output.
+
+=> if it is used as an expression, the value of the branch with which condition satisfied will be the value of
+overall expression. As an expression when returns a value with which the argument matches and we can store it in
+a variable or print directly.
+
+=> Combine multiple branches in one using comma : We can use multiple branches in a single one separated by a
+comma. When common logic is shared by some branches then we can combine them in a single branch.
+
+=> Check the input value in range or not : Using the in or !in operator we can check the range of argument passed
+ in when block. ‘in’ operator in Koltin is used to check the existence of particular variable or property in a
+ range. If the argument lies in a particular range then in operator return true and if the argument does not lies
+  in particular range then !in returns true.
+=> Check given variable is of certain type or not : Using is or !is operator we can check the type of variable
+passed as argument in when block. If the variable is Integer type then is Int returns true else return false.

@@ -1,0 +1,5 @@
+In programming, loop is used to execute a specific block of code repeatedly until certain condition is met.
+While loop is preferred when you don't know the number of times you want the loop to execute
+=>It consists of a block of code and a condition. First of all the condition is evaluated and if it is true then
+execute the code within the block. It repeats until the condition becomes false because every time the condition is
+checked before entering into the block. The while loop can be thought of as repeating of if statements

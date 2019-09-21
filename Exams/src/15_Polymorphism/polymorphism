@@ -1,0 +1,10 @@
+Polymorphism means many forms. This refers to how objects can take many forms
+=> Compile time polymorphism: It is also known as static polymorphism.
+This type of polymorphism is achieved by function overloading or operator overloading.
+    + Method Overloading: When there are multiple functions with same name but different parameters then these
+    functions are said to be overloaded. Functions can be overloaded by change in number of arguments or/and change
+    in type of arguments.
+    + Operator Overloading: giving more definition to operators like "+"
+=>  Runtime polymorphism: It is also known as Dynamic Method Dispatch. It is a process in which a function call
+to the overridden method is resolved at Runtime. This type of polymorphism is achieved by Method Overriding.
+    + Method overriding: giving new definition to the inherited method inside the child class

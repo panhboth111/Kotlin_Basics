@@ -1,0 +1,28 @@
+A list is a generic ordered collection of elements.
++ There are two types of lists in Kotlin, immutable list and mutable list
+    - immutable or read-only lists are created using listOf()
+    - mutable lists are created using mutableListOf()
+=> In order to access the elements of Kotlin list we can:
+    + indexing: listname[index]
+    + get: listname.get(index)
+    + indexOf: listname.indexOf(element)
+        - this will return the index of the first occurring specified element
+    + lastIndexOf: listname.lastIndexOf(element)
+        - this will return the index of the last occurring specified element
+    + lastIndex: listname.lastIndex
+        - this will return the last index of the list
+    + first: listname.first()
+        - this will return the first element of the list
+    + last: listname.last()
+        - this will return the last element of the list
+
+=> In order to iterate through a list we can:
+    + for loop
+    + for until loop
+    + forEach loop
+    + listIterator
+
+=> In order to get the length of the list we using listname.size
+=> we use sorted() to sort the list in ascending order, and sortedDescending() to do the opposite
+=> we using contains() to check if the list contains a particular element, and containsAll() to check if the list
+contains the multiple specified elements

@@ -1,0 +1,5 @@
+For loop is used when you know the number of times you want to it to be executed
+=> Iterate through range using for loop: You can traverse through Range because it provides iterator.
+                                        There are many ways you can iterate through Range. The in operator used in
+                                        for loop to check value lies within the Range or not.
+=> You can traverse the collection using the for loop

@@ -1,0 +1,16 @@
+Dynamic binding is the binding that is resolved at runtime
+    + This is achieved through method overriding
+    => steps:
+        1. create a parent class and a child class
+        2. overriding the parent class's function
+        3. create objects from both classes, but with the reference of parent class
+
+(In java) Static binding is the binding that is resolved at compile-time
+    + Static binding is better performance wise (no extra overhead is required).
+    + Compiler knows that all such methods cannot be overridden and will always be
+    accessed by object of local class. Hence compiler doesn’t have any difficulty to determine
+    object of class (local class for sure).
+    => steps:
+        1. create a parent class and a child class
+        2. create a method in each class with the same name and declare them as "static"
+        3. construct objects from both classes, but with the reference of parent class

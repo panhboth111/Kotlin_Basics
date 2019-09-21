@@ -1,0 +1,40 @@
+Object-oriented programming (OOP) is a programming language model in which programs are organized around data,
+or objects, rather than functions and logic.
+
+=> Class: It is a user-defined data type, which holds its own data members and member functions, which can be
+accessed and used by creating an instance of that class. A class is like a blueprint for an object.
+
+=> Object: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance
+of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created)
+memory is allocated.
+    + When a program is executed the objects interact by sending messages to one another.
+    + Each object contains data and code to manipulate the data.
+    + Objects can interact without having to know details of each other’s data or code, it is sufficient to know
+    the type of message accepted and type of response returned by the objects.
+
+=> inheritance is an important pillar of OOP(Object Oriented Programming). It is the mechanism in java by which one
+class is allow to inherit the features(fields and methods) of another class.
+    + Super Class: The class whose features are inherited is known as superclass(or a base class or a parent class).
+    + Sub Class: The class that inherits the other class is known as subclass(or a derived class, extended class,
+    or child class). The subclass can add its own fields and methods in addition to the superclass fields and
+    methods.
+    + Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and
+    there is already a class that includes some of the code that we want, we can derive our new class from the
+    existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+=> Encapsulation:  normal terms, Encapsulation is defined as wrapping up of data and information under a single
+unit. In Object-Oriented Programming, Encapsulation is defined as binding together the data and the functions
+that manipulate them.
+
+=> Abstraction: Abstraction means displaying only essential information and hiding the details. Data abstraction
+refers to providing only essential information about the data to the outside world, hiding the background details
+or implementation.
+=> Polymorphism: Polymorphism refers to the ability of OOPs programming languages to differentiate between
+entities with the same name efficiently. This is done by Java with the help of the signature and declaration of
+these entities.
+    + static polymorphism or compile-time polymorphism: method overloading, constructor overloading, operator overloading
+    + dynamic polymorphism or runtime polymorphism: method overriding
+=> Message Passing: Objects communicate with one another by sending and receiving information to each other.
+A message for an object is a request for execution of a procedure and therefore will invoke a function in the
+receiving object that generates the desired results. Message passing involves specifying the name of the object,
+the name of the function and the information to be sent.

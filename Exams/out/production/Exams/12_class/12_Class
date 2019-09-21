@@ -1,0 +1,6 @@
+Like Java, class is a blue print for the objects having similar properties. We need to define a class before
+creating object and class keyword is used to define a class.
+    + The class declaration consist of class name, class header and class body enclosed with curly braces.
+        - Class name: every class has a specific name
+        - Class header: header consist of parameters and constructors of a class
+        - Class body: surrounded by curly braces, contains member functions and other property

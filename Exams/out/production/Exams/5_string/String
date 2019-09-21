@@ -1,0 +1,30 @@
+An array of characters is called a string. Kotlin strings are mostly similar to Java strings but has some new
+added functionalities. Kotlin strings are also immutable in nature means we can not change elements and length
+of the String
+
+=>String Element : The character, digit or any other symbol present in string is called as element of a String.
+We can easily access the element of the string using string[index]. Elements store in a string from index 0 to
+(string.length – 1).
+    + To access string elements, you can:
+       1.Using index: Returns the character at specified index.
+       2.Using get function: Returns the character at specified index passed as argument to get function.
+       3.Iterating over the String: Using loops to access the characters in the String.
+
+=>String templates : String template expression is a piece of code which is evaluated and its result is returned
+into string. Both string types (escaped and raw string) contain template expressions. String templates starts with
+a dollar sign $ which consists either a variable name or an arbitrary expression in curly braces.
+
+=>Escape characters:
+    + \": for double quotes
+    + \r: for carriage return
+    + \n: for new line
+    + \': for single quote
+    + \\: for backslash
+    + \t: for tab
+    + \b: for backspace
+=> Some methods:
+    + length: returns the length of the string
+    + toLowerCase(): converts the string to lowercase
+    + toUpperCase(): converts the string to uppercase
+    + get(index): returns the character of the string at a specific index
+    + subSequence(start,end): Returns a substring starting from start and ending at end, excluding end index

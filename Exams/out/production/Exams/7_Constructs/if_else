@@ -1,0 +1,27 @@
+A programming language uses control statements to control the flow of execution of program based on certain
+conditions.If condition is true then it enters into the conditional block and executes the instructions.
+    + There are different types of if-else expressions in Kotlin:
+        1. if expression
+        2. if-else expression
+        3. if-else-if ladder expression
+        4. nested if expression
+=> if expression: It is used to specify a block of statements to be executed or not i.e if a certain condition is
+                  true then the statement or block of statements to be executed otherwise fails to execute.
+
+=> if-else statement: if-else statement contains two blocks of statements. ‘if’ statement is used to execute the
+                    block of code when the condition becomes true and ‘else’ statement is used to execute a block
+                    of code when the condition becomes false.
+
+
+=> if-else-if ladder expression: Here, a user can put multiple conditions. All the ‘if’ statements are executed
+                                 from the top to bottom. One by one all the conditions are checked and if any of
+                                 the condition found to be true then the code associated with the if statement
+                                  will be executed and all other statements bypassed to the end of the block.
+                                  If none of the conditions is true, then by default the final else statement will
+                                  be executed.
+
+
+=> if-else expression as ternary operator: n Kotlin, if-else can be used as an expression because it returns a
+                                           value. Unlike java, there is no ternary operator in Kotlin because
+                                           if-else return the value according to the condition and works exactly
+                                           similar to ternary.

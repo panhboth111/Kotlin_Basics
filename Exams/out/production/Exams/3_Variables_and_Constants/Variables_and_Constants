@@ -1,0 +1,14 @@
+A variable is a named memory location for storing data.
+In Kotlin, every variable should be declared before it is used. Without declaring a variable, an attempt to use the
+variable gives a syntax error. Declaration of the variable type also decides the kind of data you are allowed to
+store in the memory location.
+=>There are two types of variables:
+    1. Immutable using "val" keyword:  is also called read-only variables. Hence, we can not change the value of
+    the variable declared using val keyword.
+    2. Mutable using "var" keyword: value can be changed after declaration
+=> Data types:
+    1. Integer
+    2. Float
+    3. Boolean
+    4. Character
+    5. String

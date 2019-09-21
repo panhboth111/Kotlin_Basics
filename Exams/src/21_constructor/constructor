@@ -1,0 +1,10 @@
+A constructor is a special member function that is invoked when an object of the class is created primarily to
+initialize variables or properties. A class needs to have a constructor and if we do not declare a constructor,
+then the compiler generates a default constructor.
+=> There are two types of constructors
+    1. Primary constructor: The primary constructor is initialized in the class header,
+    goes after the class name, using the constructor keyword. The parameters are optional
+    in the primary constructor.
+        - The primary constructor cannot contain any code, the initialization code can be placed in
+        a separate initializer block prefixed with the init keyword.
+    2.

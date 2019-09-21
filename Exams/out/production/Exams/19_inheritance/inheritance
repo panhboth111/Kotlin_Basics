@@ -1,0 +1,11 @@
+Inheritance is the ability of a class to attain all the methods and properties from another class. This increases
+reusability.
+    => In order to allow a class to be inherited, "open" keyword must be put in the front
+    => In order to allow a class's properties and methods to be overriden, the "open" keyword must be used
+    => Types of inheritance:
+        + Single-level inheritance: one child class inherits one parent class
+        + multi-level inheritance: child class inherits from a class that also inherits from another class
+        + Hierarchical inheritance: multiple children inherit from one parent
+        + multiple inheritance: inherits from more than one parent.
+            - this can only be achieved using interface
+

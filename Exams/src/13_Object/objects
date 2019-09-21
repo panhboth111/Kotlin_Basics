@@ -1,0 +1,6 @@
+It is a basic unit of Object Oriented Programming and represents the real-life entities, which has state and
+behavior. Objects are used to access the properties and member function of a class. In Kotlin, we can create
+multiple objects of a class. An object consists of :
+    + State : It is represented by attributes of an object. It also reflects the properties of an object.
+    + Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+    + Identity : It gives a unique name to an object and enables one object to interact with other objects.

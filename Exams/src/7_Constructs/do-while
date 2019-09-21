@@ -1,0 +1,6 @@
+First of the all the statements within the block is executed, and then the condition is evaluated.
+If the condition is true the block of code is executed again. The process of execution of code block repeated
+as long as the expression evaluates to true. If the expression becomes false, the loop terminates and transfers
+control to the statement next to do-while loop.
+    -It is also known as post-test loop because it checks the condition after the block is executed.
+    -It is preferred when you want the loop to execute at least once

@@ -1,0 +1,12 @@
+Set is an interface and a collection that does not allow duplicate elements
+    => There are two types of sets
+        - immutable: setOf()
+        - mutable : mutableSetOf()
+=> to get the size of the set, we use setname.count()
+=> to find the biggest element of the set, we use setname.max(), and setname.min() for the opposite
+=> to find the sum of the set elements, we use setname.sum()
+=> to find the average of the list elements, we use setname.average()
+=> to access the elements we:
+    + elementAt(index) : returns the element at the specified index
+    + indexOf(element) : returns the index of the specified element
+    + lastIndexOf(element) : returns the index of the last occurring specified element

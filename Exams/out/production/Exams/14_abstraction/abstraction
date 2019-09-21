@@ -1,0 +1,16 @@
+We can achieve abstraction through:
++ Abstract classes (0-100%):
+    - an abstract class is declared using the "abstract" keyword
+    - it can not be instantiated, meaning it cannot be made into objects
+    - All the variables (properties) and member functions of an abstract class are by default non-abstract.
+    So, if we want to override these members in the child class then we need to use open keyword.
+    - An abstract member function doesn’t have a body, and it must be implemented in the derived class.
+    - If we declare a member function as abstract then we do not need to annotatate with open keyword because
+    these are open by default.
+
++ Interface (100%):
+    - used to achieve complete abstraction and multiple inheritance
+    - all methods and properties are by default, abstract
+    - created using "interface" keyword
+    - When implementing an interface, the conforming type must provide the definition
+      for all of its members.

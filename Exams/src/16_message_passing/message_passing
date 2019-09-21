@@ -1,0 +1,8 @@
+Message passing is a type of communication between processes or objects in computer science. In this model,
+processes or objects can send and receive messages (signals, functions, complex data structures, or data packets)
+to other processes or objects.
+    + Message passing can be synchronous or asynchronous.
+        - Synchronous message passing systems require the sender and receiver to wait for each other while
+        transferring the message.
+        - In asynchronous communication the sender and receiver do not wait for each other and can carry on their
+        own computations while transfer of messages is being done

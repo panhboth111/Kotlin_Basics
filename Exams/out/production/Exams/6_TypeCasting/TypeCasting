@@ -1,0 +1,9 @@
+Type casting(type conversion) refers to how the data type of one variable is changed to another. In Kotlin, implicit
+type conversion is not supported. Therefore, helper functions are used:
+    + toByte()
+    + toShort()
+    + toInt()
+    + toLong()
+    + toFloat()
+    + toDouble()
+    + toChar()

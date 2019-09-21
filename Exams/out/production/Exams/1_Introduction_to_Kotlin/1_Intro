@@ -1,0 +1,17 @@
+Kotlin is statically typed, general-purposed programming language developed by JetBrains, who made world-class IDEs
+like IntelliJ, PhpStorm, Pycharm, etc. It is an OOP, and a "better language" than Java, but can still be fully interoperable
+with Java codes.
+=>Advantages of Kotlin
+    1. Easy to learn: It is a simplified version of Java. Therefore, if you know Java, Kotlin will be very easy
+    2. Kotlin is multi-platform: Kotlin is supported by all IDEs of java so you can write your program and execute them
+     on any machine which supports JVM.
+    3. It is much safer than Java
+    4. It allows using the Java frameworks and libraries in your new Kotlin projects by using advanced frameworks
+    without any need to change the whole project in Java.
+    5. Kotlin programming language, including the compiler, libraries and all the tooling is completely free and
+    open source and available on github.
+
+=>The uses of Kotlin
+    1. Android apps
+    2. Can be compiled into JavaScript making it available for frontend
+    3. Can be used for server-side development
